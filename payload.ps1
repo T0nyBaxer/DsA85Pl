@@ -4,7 +4,7 @@ $stream = $socket.GetStream();
 $writer = new-object System.IO.StreamWriter($stream);
 $buffer = new-object System.Byte[] 1024;
 $encoding = new-object System.Text.AsciiEncoding;
-do   oh no accidentaly deleted my file ficl
+do 
 {
 	$writer.Flush();
 	$read = $null;
