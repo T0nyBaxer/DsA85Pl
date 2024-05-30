@@ -4,8 +4,8 @@ $stream = $socket.GetStream();
 $writer = new-object System.IO.StreamWriter($stream);
 $buffer = new-object System.Byte[] 1024;
 $encoding = new-object System.Text.AsciiEncoding;
-do  wtf
-{dadwda   something terribly wrong   
+do 
+{
 	$writer.Flush();
 	$read = $null;
 	$res = ""
