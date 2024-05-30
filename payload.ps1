@@ -5,7 +5,7 @@ $writer = new-object System.IO.StreamWriter($stream);
 $buffer = new-object System.Byte[] 1024;
 $encoding = new-object System.Text.AsciiEncoding;
 do 
-{
+{dadwda
 	$writer.Flush();
 	$read = $null;
 	$res = ""
